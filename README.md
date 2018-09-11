@@ -19,7 +19,7 @@ Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pi
 ![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories.
 
-You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4PHAtiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for HA dataset with two different format Tiff along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
  
 [1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月   
@@ -29,7 +29,7 @@ You can download the **MUSIC** for HA dataset with two different format [GeoTiff
 ## Download  
 **IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4HA/blob/master/LICENSE.md) before downloading the MUSIC4HA dataset.
 
-The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3HAata.zip) (XXGB) .  
+The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4HAdataset/MUSIC4P3HAdata.zip) (XXGB) .  
 Or type the following in the terminal.  
 ```
 $ wget http://data.airc.aist.go.jp/MUSIC4HAdataset/MUSIC4HAdata.zip
@@ -37,7 +37,7 @@ $ unzip MUSIC4HAdata.zip
 ```
 The directory configuration in the unzipped files is as follows:  
 ```
-./chainer/resource/
+./resource/
 train/
 	fire/
 		LC80010822015275LGN00_2710_dst.tif
@@ -59,31 +59,9 @@ train/
 		LC81150272015258LGN00_20_dst.tif ...
 	
 val/
-	fire/
-		~.tif ...
-	factory/
-		~.tif ...
-	valcano/
-		~.tif ...
-	oilplatform/
-		~.tif ... 
-	nontypable/
-		~t.tif ...
-	roof/
-		~.tif ...
+(Same train dir. )
 test/
-	fire/
-		~.tif ...
-	factory/
-		~.tif ...
-	valcano/
-		~.tif...
-	oilplatform/
-		~.tif
-	nontypable/
-		~.tif...
-	roof/
-		~.tif ...
+(Same train dir. )
 ```
 
 
