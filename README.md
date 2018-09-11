@@ -22,9 +22,9 @@ Fig3 : Hot area categories.
 You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4P3#tiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
  
-[1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月 
-[2]  *Kato. S, and Nakamura. R , "Detection of thermal anomaly using Sentinel-2A data", IEEE IGARSS 2017, July 2017.
-[3]  *Miyamoto.H, Kato.S, Oda.A, Nakamura.R ," Automatic Classification of Hot spots on Satellite Imagery by Deep Learning", JSAI 2017,May 2017
+[1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月   
+[2]  *Kato. S, and Nakamura. R , "Detection of thermal anomaly using Sentinel-2A data", IEEE IGARSS 2017, July 2017.  
+[3]  *Miyamoto.H, Kato.S, Oda.A, Nakamura.R ," Automatic Classification of Hot spots on Satellite Imagery by Deep Learning", JSAI 2017,May 2017  
 
 ## Download  
 **IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4HA/blob/master/LICENSE.md) before downloading the MUSIC4HA dataset.
