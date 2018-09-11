@@ -2,7 +2,7 @@
 
 ## Overview
 
-The HotArea(HA) is a system to automatically detect hotspots (e.g., fires and volcanoes) in the world in mid-resolution satellite data and displays the results on a web-based GIS system. Currently Hotarea utilizes Landsat 8 and Sentinel-2 data in global scale and in some selected regions, respectively.
+The **H**ot**A**rea(**HA**) is a system to automatically detect hotspots (e.g., fires and volcanoes) in the world in mid-resolution satellite data and displays the results on a web-based GIS system. Currently Hotarea utilizes Landsat 8 and Sentinel-2 data in global scale and in some selected regions, respectively.
 
 
 The Landsat 8 Operational Land Imager (OLI) and Sentinel-2 Multispectral Instrument (MSI) are designed to observe solar radiance reflected by the land surface in the visible to shortwave infrared region, i.e., 0.43–2.3 μm. While the peak wavelength of solar radiance that corresponds to 6000 K is in the visible region (0.4–0.7 μm), the peak wavelength of hotspots such as fire corresponds to the shortwave infrared (SWIR, 1.3–3 μm) to midinfrared (3–8 μm) regions (Fig. 1). Therefore, at longer wavelengths, the radiance of a hotspot observed by the satellite sensor increases. Although the reflected spectral radiances in the near-infrared (NIR: 0.85 μm) and the SWIR (2.2 μm) regions correlate well on the ground surface, the SWIR radiance of a hotspot increases anomalously. Fig. 2 implies that an appropriate threshold distinguishes signals corresponding to hotspots from surface reflection. Hotarea uses this empirical characteristic to automatically detect hotspots in satellite images. 
@@ -14,12 +14,12 @@ Fig1 : Spectral radiance at various temperatures as a function of wavelength. B5
 Fig2 : Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.
 
 We classified the detection results into these categories (Fig.3.).  
-So we created image patch from Landsat 8 imagery.  
+Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pixel from hot area detection point.
 
 ![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories.
 
-You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4P3#tiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4PHAtiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
  
 [1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月   
@@ -29,36 +29,61 @@ You can download the **MUSIC** for HA dataset with two different format [GeoTiff
 ## Download  
 **IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4HA/blob/master/LICENSE.md) before downloading the MUSIC4HA dataset.
 
-The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip) (XXGB) .  
+The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3HAata.zip) (XXGB) .  
 Or type the following in the terminal.  
 ```
 $ wget http://data.airc.aist.go.jp/MUSIC4HAdataset/MUSIC4HAdata.zip
-$ unzip MUSIC4HAdata_tiff.zip
+$ unzip MUSIC4HAdata.zip
 ```
 The directory configuration in the unzipped files is as follows:  
 ```
 ./chainer/resource/
 train/
-	positive/
-		LC81060302015147LGN00_274_300_2064.tiff
-		LC81060302015147LGN00_274_300_13289.tiff ...
-	negative/
-		LC81060302015147LGN00_100_105.tiff
-		LC81060302015147LGN00_100_114.tiff ...
+	fire/
+		LC80010822015275LGN00_2710_dst.tif
+		LC80050532015335LGN00_2823_dst.tif ...
+	factory/
+		LC80010772015275LGN00_3191_dst.tif
+		LC80150282015213LGN00_2938_dst.tif ...
+	valcano/
+		LC80100612014303LGN00_1650_dst.tif
+		LC80170512016086LGN00_1657_dst.tif ...
+	oilplatform/
+		LC82070182016185LGN00_2034_dst.tif
+		LC82070182016185LGN00_2033_dst.tif 
+	nontypable/
+		LC80100602015274LGN00_1343_dst.tif
+		LC80170412015275LGN00_2715_dst.tif ...
+	roof/
+		LC81150232015258LGN00_60_dst.tif
+		LC81150272015258LGN00_20_dst.tif ...
+	
 val/
-	positive/
-		LC81070352015298LGN00_206_266.tiff
-		LC81070352015298LGN00_374_160.tiff ...
-	negative/
-		LC81060302015147LGN00_2_86.tiff
-		LC81060302015147LGN00_4_88.tiff ...
+	fire/
+		~.tif ...
+	factory/
+		~.tif ...
+	valcano/
+		~.tif ...
+	oilplatform/
+		~.tif ... 
+	nontypable/
+		~t.tif ...
+	roof/
+		~.tif ...
 test/
-	positive/
-		LC81060302015147LGN00_79_323.tiff
-		LC81060302015147LGN00_80_323.tiff ...
-	negative/
-		LC81060302015147LGN00_100_100.tiff
-		LC81060302015147LGN00_100_101.tiff ...
+	fire/
+		~.tif ...
+	factory/
+		~.tif ...
+	valcano/
+		~.tif...
+	oilplatform/
+		~.tif
+	nontypable/
+		~.tif...
+	roof/
+		~.tif ...
 ```
 
 
