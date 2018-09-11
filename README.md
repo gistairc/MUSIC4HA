@@ -7,10 +7,10 @@ The HotArea(HA) is a system to automatically detect hotspots (e.g., fires and vo
 
 The Landsat 8 Operational Land Imager (OLI) and Sentinel-2 Multispectral Instrument (MSI) are designed to observe solar radiance reflected by the land surface in the visible to shortwave infrared region, i.e., 0.43–2.3 μm. While the peak wavelength of solar radiance that corresponds to 6000 K is in the visible region (0.4–0.7 μm), the peak wavelength of hotspots such as fire corresponds to the shortwave infrared (SWIR, 1.3–3 μm) to midinfrared (3–8 μm) regions (Fig. 1). Therefore, at longer wavelengths, the radiance of a hotspot observed by the satellite sensor increases. Although the reflected spectral radiances in the near-infrared (NIR: 0.85 μm) and the SWIR (2.2 μm) regions correlate well on the ground surface, the SWIR radiance of a hotspot increases anomalously. Fig. 2 implies that an appropriate threshold distinguishes signals corresponding to hotspots from surface reflection. Hotarea uses this empirical characteristic to automatically detect hotspots in satellite images. 
 
-![fig:Spectral radiance at various temperatures as a function of wavelength. B5–B11 are band numbers of Landsat 8.](https://github.com/gistairc/MUSIC4HA/blob/master/fig1.jpg "Spectral radiance at various temperatures as a function of wavelength. B5–B11 are band numbers of Landsat 8.")
+![fig:Spectral radiance at various temperatures as a function of wavelength. B5–B11 are band numbers of Landsat 8.](https://github.com/gistairc/MUSIC4HA/blob/master/fig1.png "Spectral radiance at various temperatures as a function of wavelength. B5–B11 are band numbers of Landsat 8.")
 
 
-![fig: Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.](https://github.com/gistairc/MUSIC4HA/blob/master/fig1.jpg " Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.")
+![fig: Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.](https://github.com/gistairc/MUSIC4HA/blob/master/fig2.png " Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.")
 
 You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4P3#tiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
