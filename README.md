@@ -16,7 +16,7 @@ Fig2 : Example of the relationship between NIR and SWIR top-of-atmosphere reflec
 We classified the detection results into these categories (Fig.3.).  
 So we created image patch from Landsat 8 imagery.  
 
-![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/categories3.jpg "Hot area categories")  
+![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories.
 
 You can download the **MUSIC** for HA dataset with two different format [GeoTiff](https://github.com/gistairc/MUSIC4P3#tiff)) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
