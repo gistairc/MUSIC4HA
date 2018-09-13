@@ -59,9 +59,9 @@ train/
 		LC81150272015258LGN00_20_dst.tif ...
 	
 val/
-(Same train dir. )
+(same structure for train dir... )
 test/
-(Same train dir. )
+(same structure for train dir... )
 ```
 
 
