@@ -29,7 +29,7 @@ You can download the **MUSIC** for HA dataset with two different format Tiff alo
 ## Download  
 **IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4HA/blob/master/LICENSE.md) before downloading the MUSIC4HA dataset.
 
-The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4HA/MUSIC4P3HA.zip) (XXGB) .  
+The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4HA/MUSIC4HA.zip) (12MB) .  
 Or type the following in the terminal.  
 ```
 $ wget http://data.airc.aist.go.jp/MUSIC4HA/MUSIC4HA.zip
