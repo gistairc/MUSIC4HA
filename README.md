@@ -14,7 +14,7 @@ Fig1 : Spectral radiance at various temperatures as a function of wavelength. B5
 Fig2 : Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.
 
 We classified the detection results into 6 categories (Fig.3.). 
-Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pixel from hot area detection point.
+Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pixel from hot area detection point (Fig.3. Center of square).
 
 ![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories. Center of squares are 16 x 16 pixel. MUSIC4HA dataset size is this.
