@@ -13,17 +13,17 @@ Fig1 : Spectral radiance at various temperatures as a function of wavelength. B5
 ![fig: Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.](https://github.com/gistairc/MUSIC4HA/blob/master/fig2.jpg "Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.")  
 Fig2 : Example of the relationship between NIR and SWIR top-of-atmosphere reflectance.
 
-We classified the detection results into these categories (Fig.3.).  
+We classified the detection results into 6 categories (Fig.3.). 
 Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pixel from hot area detection point.
 
 ![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories.
 
-You can download the **MUSIC** for HA dataset with two different format Tiff along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for HA dataset with format Tiff. More detailed exaplanations can be found in the following papers.
 
  
 [1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月   
-[2]  *Kato. S, and Nakamura. R , "Detection of thermal anomaly using Sentinel-2A data", IEEE IGARSS 2017, July 2017.  
+[2]  *Kato.S, and Nakamura.R , "Detection of thermal anomaly using Sentinel-2A data", IEEE IGARSS 2017, July 2017.  
 [3]  *Miyamoto.H, Kato.S, Oda.A, Nakamura.R ," Automatic Classification of Hot spots on Satellite Imagery by Deep Learning", JSAI 2017,May 2017  
 
 ## Download  
