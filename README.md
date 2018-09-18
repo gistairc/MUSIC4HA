@@ -16,7 +16,7 @@ Fig2 : Example of the relationship between NIR and SWIR top-of-atmosphere reflec
 We classified the detection results into 6 categories (Fig.3.). 
 Landsat-8 multiband images of these target areas were cropped into a 16 × 16 pixel from hot area detection point.
 
-![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3_sq.jpg "Hot area categories")  
+![fig: class](https://github.com/gistairc/MUSIC4HA/blob/master/fig3.jpg "Hot area categories")  
 Fig3 : Hot area categories. Center of squares are 16 x 16 pixel. MUSIC4HA dataset size is this.
 
 You can download the **MUSIC** for HA dataset with format Tiff. More detailed exaplanations can be found in the following papers.
