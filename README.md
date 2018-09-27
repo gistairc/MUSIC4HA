@@ -22,7 +22,7 @@ Fig3 : Hot area categories. Center of red boxes are 16 x 16 pixel. MUSIC4HA data
 You can download the **MUSIC** for HA dataset with format Tiff. More detailed exaplanations can be found in the following papers.
 
  
-[1] *加藤創史,神山徹,中村良介，"夜間Landsat 8 OLIデータによる高温熱源の温度推定"，日本リモートセンシング学会第59回(平成27年度秋季)学術講演会, 2015年11月   
+[1] *加藤創史・中村良介・織田篤嗣・飯島昭博・神山徹・岩田敏彰，Landsat 8データを用いた高温検知システムの開発，日本リモートセンシング学会第57回(平成26年度秋季)学術講演会, 2014年11月   
 [2]  *Kato.S, and Nakamura.R , "Detection of thermal anomaly using Sentinel-2A data", IEEE IGARSS 2017, July 2017.  
 [3]  *Miyamoto.H, Kato.S, Oda.A, Nakamura.R ," Automatic Classification of Hot spots on Satellite Imagery by Deep Learning", JSAI 2017,May 2017  
 
